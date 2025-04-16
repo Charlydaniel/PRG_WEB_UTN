@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Document
+    </title>
+    <link rel="stylesheet" href="../Style/Style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div name="logo" id="logo">
+            <img class="logo" src="../Imgs/Hostinger-768x432.png" alt="logo">
+        </div>
+
+        <nav class="navigator-ppal texto-pequeño">
+
+            <a href="./Precios.html">Precios</a>
+            <a href="./Servicios.html">Servicios <i class="bi bi-chevron-down"></i></a>
+            <a href="Explorar.html">Explorar <i class="bi bi-chevron-down"></i></a>
+            <a href="./Soporte.html">Soporte <i class="bi bi-chevron-down"></i></a>
+            <a href="./Horizons.html">Horizonz <button class="novedad">NUEVO</button></a>
+
+        </nav>
+
+        <div class="botones-head" name="botones-head" id="botones-head">
+
+            <img class="flag-pais" name="flag-pais" src="../Imgs/Flag_of_Argentina.svg" alt="language selected flag">
+           
+            <select class="sel-pais" name="sel-pais" id="sel-pais">
+                <!--Value es como se va a guardar el dato para Java Script, selected lo pone por defecto
+                disabled deshabilita esta opcion para que el usuario si o si elija opciones validas-->
+                
+                <option value="N/A" selected disabled>Idioma</option>
+                <option value="Es">Español</option>
+                <option value="Eng">Ingles</option>
+                <option value="Ru">Ruso</option>
+                <option value="Po">Portugues</option>
+
+            </select>
+            <input id="ingresar-btn" name="ingresar-btn" class="ingresar-btn" type="button" value="Ingresar">
+        </div>
+    </header>
+    <main>
+        <section name="main-superior" id="main-superior" class="main-superior">
+            <aside name="main-superior-izquierda" id="main-superior-izquierda" class="main-superior-izquierda">
+                <h1 class="subtitle" name="subtitle--main-superior-izquierda" id="subtitle--main-superior-izquierda">
+                    Todo lo que necesitás para crear una web
+                </h1>
+                <h2 class="texto-pequeño" id="texto-pequeño--main-superior-izquierda"
+                    name="texto-pequeño--main-superior-izquierda">
+                    Hasta <span class="texto-pequeño remarcar-descuento">72%</span> off en hosting + Creador de webs
+                </h2>
+                <div class="content-spam--main-superior-izquierda" name="content-spam--main-superior-izquierda"
+                    id="content-spam--main-superior-izquierda">
+                    <ol class="texto-pequeño">
+                        <li>
+                            <img class="imagen-span" src="../Imgs/th.jpg" alt=""> Dominio gratis
+                        </li> 
+                        <li>
+                            <img class="imagen-span" src="../Imgs/th.jpg" alt=""> Migración gratis
+                        </li>
+                        <li>
+                            <img class="imagen-span" src="../Imgs/th.jpg" alt=""> Atención al cliente 24/7
+                        </li>
+                    </ol>
+                </div>
+                <div class="content-price" id="Content-price--main-superior-izquierda"
+                    name="Content-price--main-superior-izquierda">
+                    <h1 class="precios-main" name="Precio-main-superior-izquierda" id="Precio-main-superior-izquierda">
+                        <span class="texto-pequeño">ARS$ </span>3.899<span class="texto-pequeño">/mes</span>
+                    </h1>
+                </div>
+                <h2 class="texto-pequeño" id="texto-pequeño--main-superior-izquierda"
+                    name="texto-pequeño--main-superior-izquierda">
+                    +3 meses gratis
+                </h2>
+                <input type="button" class="boton-comprar" name="Boton-comprar-ya" id="Boton-comprar-ya"
+                    value="Empezar ya">
+            </aside>
+
+            <aside class="main-superior-derecha">
+                <img class="main-superior-derecha_img" src="../Imgs/main-derecha.avif" alt="">
+            </aside>
+        </section>
+        
+        <section class="recomendaciones">
+            <div class="recomendaciones_superior">
+                <img class="recomendaciones_superior_img" src="../Imgs/wordpress.png" alt="">
+                <h1 class="texto-pequeño">Recomendado por <b>WordPress.org</b></h1>
+            </div>
+            <div class="recomendaciones_resultados">
+                
+                <div class="recomendaciones_resultados_resultado trustpilot">
+                    <a class="link_neutro" href="https://es.trustpilot.com/review/hostinger.com?utm_medium=trustbox&utm_source=Mini">
+                        <span class="recomendaciones_titulo">
+                            <i class="objeto_verde bi-star-fill" ></i>
+                            Trustpilot
+                        </span>
+                        <div class="estrellas-alineadas">
+                            <img class="objeto_verde estrella_rellena" src="../Imgs/star-with-background.png" alt="estrella recomendacion">
+                            <img class="objeto_verde estrella_rellena" src="../Imgs/star-with-background.png" alt="estrella recomendacion">
+                            <img class="objeto_verde estrella_rellena" src="../Imgs/star-with-background.png" alt="estrella recomendacion">
+                            <img class="objeto_verde estrella_rellena" src="../Imgs/star-with-background.png" alt="estrella recomendacion">
+                            <img class="objeto_verde estrella_rellena" src="../Imgs/star-with-background-midle.png" alt="estrella recomendacion">
+                        </div>
+                        
+                    </a>
+                    <h4 class="texto-pequeño texto-muy-pequeño">
+                        TrustScore <b> 4.7 43884 </b> opiniones
+                    </h1>
+                </div>
+
+                <div class="recomendaciones_resultados_resultado google">
+                    
+                    <span class="recomendaciones_titulo">
+                        Google
+                    </span>
+                    <div class="estrellas-alineadas">
+                        <i class="objeto_verde bi-star-fill" ></i>
+                        <i class="objeto_verde bi-star-fill" ></i>
+                        <i class="objeto_verde bi-star-fill" ></i>
+                        <i class="objeto_verde bi-star-fill" ></i>
+                        <i class="objeto_verde bi-star-fill" ></i>
+                    </div>
+                        
+                    
+                    <h4 class="texto-pequeño texto-muy-pequeño">
+                        Puntaje: <b>4.8/51237</b> opiniones
+                    </h1>
+                </div>
+
+                <div class="recomendaciones_resultados_resultado hostadvice">
+                    
+                    <img class="recomendaciones_titulo" src="https://imagedelivery.net/LqiWLm-3MGbYHtFuUbcBtA/e4cb5104-489f-46ff-dd48-eb0fe2a1c600/public" class="recomendaciones_titulo"></img>
+
+                    <div class="estrellas-alineadas">
+                        <i class="objeto_verde bi-star-fill" ></i>
+                        <i class="objeto_verde bi-star-fill" ></i>
+                        <i class="objeto_verde bi-star-fill" ></i>
+                        <i class="objeto_verde bi-star-fill" ></i>
+                        <i class="objeto_verde bi-star-fill" ></i>
+                    </div>
+                        
+                    
+                    <h4 class="texto-pequeño texto-muy-pequeño">
+                        Puntaje: <b>4.8/51237</b> opiniones
+                    </h1>
+                </div>
+
+                <div class="recomendaciones_resultados_resultado wpveginner">
+                    
+                    <img class="recomendaciones_titulo" src="https://imagedelivery.net/LqiWLm-3MGbYHtFuUbcBtA/92d683fb-bb0b-492c-a8bc-f3553bdc7d00/public" class="recomendaciones_titulo"></img>
+
+                    <div class="estrellas-alineadas">
+                        <i class="objeto_verde bi-star-fill" ></i>
+                        <i class="objeto_verde bi-star-fill" ></i>
+                        <i class="objeto_verde bi-star-fill" ></i>
+                        <i class="objeto_verde bi-star-fill" ></i>
+                        <i class="objeto_verde bi-star-fill" ></i>
+                    </div>
+                        
+                    
+                    <h4 class="texto-pequeño texto-muy-pequeño">
+                        Puntaje: <b>4.8/51237</b> opiniones
+                    </h1>
+                </div>
+
+            </div>
+            
+        </section>
+    </main>
+    
+</body>
+</html>

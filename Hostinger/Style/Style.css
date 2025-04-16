@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .desplegable{
     width: 10px;
 }
+
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
     align-items: center;
     font-family: sans-serif;
     line-height: 24px;
@@ -20,8 +29,11 @@ header{
     display: flex;
     gap: 20px;
     width: 120px;
+    display: flex;
     align-items: center;
-    padding-right: 600px;
+    justify-content: space-between;
+    margin-left: 40px;
+    
 }
 
 .navigator-ppal a {
@@ -54,6 +66,7 @@ header{
 .flag-pais{
     margin-top: 10px;
     width: 25px;
+    height: 15px;
 }
 
 .ingresar-btn{
@@ -68,9 +81,16 @@ header{
 }
 
 div.botones-head{
-    align-items: center;
+    display: flex;
+    gap: 10px;
+    margin-left: 800px;
+    font-weight: bold;
+    
 }
 .main-superior{
+    display: flex;
+    justify-content: Space-evenly;
+    padding-top: 50px;
     font-family: sans-serif;
     color: rgb(10, 10, 114);
     padding-bottom: 0px;
@@ -91,7 +111,10 @@ div.botones-head{
     margin-bottom: 8px;
 }
 .texto-pequeño{
+    font-family: sans-serif;
     font-size: 12px;
+    list-style: none;
+    padding-left: 0;
 }
 .texto-mediano{
     font-size: 12px;
@@ -106,8 +129,8 @@ div.botones-head{
     width: 15px;
 }
 .main-superior-izquierda{
-    margin-top: 80px;
-    margin-left: 130px;
+    margin-top: 0;
+    margin-left: 0;
 }
 .precios-main{
     font-size: 39px;
@@ -124,4 +147,70 @@ div.botones-head{
 .precios-main{
     margin-top: 5px;
     margin-bottom: 2px;
+}
+.novedad{
+    width: 50px;
+    height: 20px;
+    font-size: 9px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #DEF4F0;
+    color: #008363;
+}
+
+.main-superior-derecha_img{
+    width: 616px;
+}
+.recomendaciones{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    margin: 0 200px;
+}
+.recomendaciones_superior{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.recomendaciones_superior_img{
+    width: 30px;
+    height: 30px;
+}
+.recomendaciones_resultados{
+    display: flex;
+    flex-direction: row;
+    justify-content: Space-evenly;
+    margin-top: 50px;
+}
+.recomendaciones_resultados_resultado{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: start;
+}
+.link_neutro{
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000000;
+}
+.objeto_verde{
+    color: #00B865;
+}
+.estrellas-alineadas{
+    width: 200px;
+}
+.estrella_rellena{
+    width: 20px;
+}
+.texto-muy-pequeño{
+    font-size: 9px;
+}
+.recomendaciones_titulo{
+    width: 80px;
 }
