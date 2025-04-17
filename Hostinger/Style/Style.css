@@ -115,6 +115,7 @@ div.botones-head{
     font-size: 12px;
     list-style: none;
     padding-left: 0;
+    font-weight:500;
 }
 .texto-mediano{
     font-family: "DM Sans", sans-serif;
@@ -125,6 +126,7 @@ div.botones-head{
 }
 .imagen-span{
     width: 15px;
+    height: 15px;
 }
 .main-superior-izquierda{
     margin-top: 0;
@@ -222,16 +224,22 @@ div.botones-head{
     margin-top: 40px;
     border: 1px;
     border-style: solid;
-    border-color: #897ea8;
+    border-color: #d5dfff;
     color: #2f1c6a;
-    width: 250px;
-    height: 700px;
+    width: 300px;
+    height: 900px;
     border-radius: 10px;
-    align-items: start;
-    padding: 20px 10px;
+    align-items: center;
+    padding: 47px 31px;
+    background-color: #fafbff;
+    overflow: hidden;
 }
 .planes{
-    margin: 0 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 100px;
+    gap: 10px;
 }
 .plan_type{
  font-size: 18px;
@@ -262,11 +270,56 @@ div.botones-head{
     margin-top: 10px;
     display: flex;
     flex-direction: row;
-    align-items:end;
+    align-items:flex-end;
     justify-content: space-around;
+    margin-bottom: 50px;
 }
 .texto_monto{
-  
     font-family: "DM Sans", sans-serif;
     font-size:40px;
+}
+.plan_subtitle{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.boton_elegir_plan{
+    border: 2px;
+    border-color: #673de6;
+    border-style: solid;
+    width: 245px;
+    height: 47px;
+    color: 673de6;
+    border-radius: 10px;
+    color: #673de6;
+    font-weight:700;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    background-color:#00000000;
+}
+.elegir{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;  
+}
+.lista_beneficios{
+    margin-top: 30px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-top: 1px;
+    border-color: #d5dfff;
+    border-top-style: solid;
+    align-content: end;
+    gap: 8px;
+}
+.li_con_imagen{
+    font-family: "DM Sans", sans-serif;
+    font-weight:lighter;
+    display: flex;
+    flex-direction: row;
 }
