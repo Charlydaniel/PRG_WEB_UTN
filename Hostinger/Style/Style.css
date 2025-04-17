@@ -16,13 +16,13 @@ header{
     align-items: center;
     font-family: sans-serif;
     line-height: 24px;
-    height: 50px;
+    height: 88px;
 
 }
 
 .logo{
-    width: 120px;
-    padding: 29px 0 29px 29px;
+    width: 187px;
+    padding: 29px 0 29px 40px;
 }
 .navigator-ppal{
 
@@ -98,7 +98,7 @@ div.botones-head{
 }
 .main-superior-izquierda{
 
-    width: 350px;
+    width: 440px;
 }
 .content-spam--main-superior-izquierda span{
     align-items: center;
@@ -107,19 +107,20 @@ div.botones-head{
     margin-top: 2px;
 }
 .subtitle{
-    font-size: 25px;
+    font-family: sans-serif;
+    font-size: 35px;
     margin-bottom: 8px;
 }
 .texto-pequeño{
     font-family: "DM Sans", sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     list-style: none;
     padding-left: 0;
     font-weight:500;
 }
 .texto-mediano{
     font-family: "DM Sans", sans-serif;
-    font-size: 12px;
+    font-size: 20px;
 }
 .remarcar-descuento{
     color:#0b7bf3;
@@ -133,7 +134,8 @@ div.botones-head{
     margin-left: 0;
 }
 .precios-main{
-    font-size: 39px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 48px;
 }
 .boton-comprar{
     color: white;
