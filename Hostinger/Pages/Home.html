@@ -18,47 +18,49 @@
         <div name="logo" id="logo">
             <img class="logo" src="../Imgs/Hostinger-768x432.png" alt="logo">
         </div>
+        <div class="navigator_ppal_seccion">
+            <nav class="navigator-ppal texto-pequeño">
 
-        <nav class="navigator-ppal texto-pequeño">
-
-            <div class="navigator-ppal_boton">
-                <a href="./Precios.html">Precios</a>
+                <div class="navigator-ppal_boton">
+                    <a href="./Precios.html">Precios</a>
+                </div>
+                <div class="navigator-ppal_boton">
+                    <a href="./Servicios.html">Servicios</a>
+                    <i class="bi bi-chevron-down"></i>
+                </div>
+                <div class="navigator-ppal_boton">
+                    <a href="Explorar.html">Explorar</a>
+                    <i class="bi bi-chevron-down"></i>
+                </div>
+                <div class="navigator-ppal_boton">
+                    <a href="./Soporte.html">Soporte</a>
+                    <i class="bi bi-chevron-down"></i>
+                </div>
+                <div class="navigator-ppal_boton_nuevo">
+                    <a href="./Horizons.html">Horizonz</a>
+                    <span class="novedad">NUEVO</span>
+                </div>          
+            </nav>
+            <div class="botones-head" name="botones-head" id="botones-head">
+    
+                <img class="flag-pais" name="flag-pais" src="../Imgs/Flag_of_Argentina.svg" alt="language selected flag">
+               
+                <select class="sel-pais" name="sel-pais" id="sel-pais">
+                    <!--Value es como se va a guardar el dato para Java Script, selected lo pone por defecto
+                    disabled deshabilita esta opcion para que el usuario si o si elija opciones validas-->
+                    
+                    <option value="N/A" selected disabled>Idioma</option>
+                    <option value="Es">Español</option>
+                    <option value="Eng">Ingles</option>
+                    <option value="Ru">Ruso</option>
+                    <option value="Po">Portugues</option>
+    
+                </select>
+                <input id="ingresar-btn" name="ingresar-btn" class="ingresar-btn" type="button" value="Ingresar">
             </div>
-            <div class="navigator-ppal_boton">
-                <a href="./Servicios.html">Servicios</a>
-                <i class="bi bi-chevron-down"></i>
-            </div>
-            <div class="navigator-ppal_boton">
-                <a href="Explorar.html">Explorar</a>
-                <i class="bi bi-chevron-down"></i>
-            </div>
-            <div class="navigator-ppal_boton">
-                <a href="./Soporte.html">Soporte</a>
-                <i class="bi bi-chevron-down"></i>
-            </div>
-            <div class="navigator-ppal_boton_nuevo">
-                <a href="./Horizons.html">Horizonz</a>
-                <span class="novedad">NUEVO</span>
-            </div>          
-        </nav>
-
-        <div class="botones-head" name="botones-head" id="botones-head">
-
-            <img class="flag-pais" name="flag-pais" src="../Imgs/Flag_of_Argentina.svg" alt="language selected flag">
-           
-            <select class="sel-pais" name="sel-pais" id="sel-pais">
-                <!--Value es como se va a guardar el dato para Java Script, selected lo pone por defecto
-                disabled deshabilita esta opcion para que el usuario si o si elija opciones validas-->
-                
-                <option value="N/A" selected disabled>Idioma</option>
-                <option value="Es">Español</option>
-                <option value="Eng">Ingles</option>
-                <option value="Ru">Ruso</option>
-                <option value="Po">Portugues</option>
-
-            </select>
-            <input id="ingresar-btn" name="ingresar-btn" class="ingresar-btn" type="button" value="Ingresar">
         </div>
+
+
     </header>
     <main>
         <section class="main-superior">
@@ -87,15 +89,16 @@
             
                 <div class="content-price" id="Content-price--main-superior-izquierda" name="Content-price--main-superior-izquierda">
                     <h1 class="precios-main" name="Precio-main-superior-izquierda" id="Precio-main-superior-izquierda">
-                        <span class="texto-pequeño">ARS$ </span>3.899<span class="texto-pequeño">/mes</span>
+                        <span class="texto-mediano texto_delgado">AR$ </span>3.899<span class="texto-mediano texto_delgado">/mes</span>
                     </h1>
                 </div>
-                <h2 class="texto-pequeño" id="texto-pequeño--main-superior-izquierda"
-                    name="texto-pequeño--main-superior-izquierda">
+                <h2 class="texto-mediano">
                     +3 meses gratis
                 </h2>
-                <input type="button" class="boton-comprar" name="Boton-comprar-ya" id="Boton-comprar-ya"
-                    value="Empezar ya">
+                <div class="contenedor_2_botones">
+                    <input type="button" class="boton-comprar texto-pequeño texto_grueso" value="Empezar ya">
+                    <input type="button" class="boton-timer texto-pequeño texto_grueso" value="00 : 11 : 10 : 45">
+                </div>
             </aside>
 
             <aside class="main-superior-derecha">
@@ -589,4 +592,10 @@
     </main>
     
 </body>
+
+<span  class="chat-button" target="_blank">
+   <img style="width: 15px;" src="../Imgs/kodee icon.png" alt="kodee icon">
+   <h1 class="texto-pequeño">Preguntarle a Kodee</h1>
+</span>
+
 </html>
