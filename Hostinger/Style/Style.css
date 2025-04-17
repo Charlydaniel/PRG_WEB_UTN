@@ -111,16 +111,14 @@ div.botones-head{
     margin-bottom: 8px;
 }
 .texto-pequeño{
-    font-family: sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-size: 12px;
     list-style: none;
     padding-left: 0;
 }
 .texto-mediano{
+    font-family: "DM Sans", sans-serif;
     font-size: 12px;
-    padding: 0px;
-    margin: 0px;
-
 }
 .remarcar-descuento{
     color:#0b7bf3;
@@ -210,7 +208,65 @@ div.botones-head{
 }
 .texto-muy-pequeño{
     font-size: 9px;
+    font-family: "DM Sans", sans-serif
 }
 .recomendaciones_titulo{
     width: 80px;
+}
+.centrado_vert{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.plan_box_body{
+    margin-top: 40px;
+    border: 1px;
+    border-style: solid;
+    border-color: #897ea8;
+    color: #2f1c6a;
+    width: 250px;
+    height: 700px;
+    border-radius: 10px;
+    align-items: start;
+    padding: 20px 10px;
+}
+.planes{
+    margin: 0 100px;
+}
+.plan_type{
+ font-size: 18px;
+ font-family: "DM Sans", sans-serif
+}
+.ahorro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+
+}
+.tachado{
+    text-decoration:line-through;
+}
+.ahorro_porcentaje{
+    display: flex;
+    background-color: #d5dfff;
+    width: 110px;
+    height: 25px;
+    padding: 5px;
+    justify-content: center;
+    border-radius: 15px;
+}
+.plan_precio_box{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items:end;
+    justify-content: space-around;
+}
+.texto_monto{
+  
+    font-family: "DM Sans", sans-serif;
+    font-size:40px;
 }
