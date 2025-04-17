@@ -5,6 +5,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+    color:#000000;
+}
 
 .desplegable{
     width: 10px;
@@ -30,16 +34,28 @@ header{
     gap: 20px;
     width: 120px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     margin-left: 40px;
     
 }
+.navigator-ppal_boton{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
 
-.navigator-ppal a {
+.navigator-ppal_boton_nuevo{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.navigator-ppal {
 
-    display: inline-flex;
-    gap: 4px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
     text-decoration: none;
     color: #333;
     transition: color 0.3s;
@@ -100,11 +116,22 @@ div.botones-head{
 
     width: 440px;
 }
+.lista_con_imagen{
+    
+    margin-top: 10px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: end;
+    gap: 8px;
+}
 .content-spam--main-superior-izquierda span{
+
+    display: flex;
     align-items: center;
     align-content: center;
-    display: block;
-    margin-top: 2px;
+    margin-top: 20px;
 }
 .subtitle{
     font-family: sans-serif;
@@ -116,7 +143,7 @@ div.botones-head{
     font-size: 16px;
     list-style: none;
     padding-left: 0;
-    font-weight:500;
+    font-weight:400;
 }
 .texto-mediano{
     font-family: "DM Sans", sans-serif;
@@ -126,8 +153,8 @@ div.botones-head{
     color:#0b7bf3;
 }
 .imagen-span{
-    width: 15px;
-    height: 15px;
+    width: 25px;
+    height: 25px;
 }
 .main-superior-izquierda{
     margin-top: 0;
@@ -151,14 +178,19 @@ div.botones-head{
     margin-bottom: 2px;
 }
 .novedad{
-    width: 50px;
-    height: 20px;
-    font-size: 9px;
-    border: none;
-    border-radius: 5px;
+
+    display: inline-flex;
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+    width: 41,5px;
+    height: 24px;
+    padding: 4px 12px;
+    border-radius: 6px;
     font-weight: bold;
-    background-color: #DEF4F0;
-    color: #008363;
+    background-color: #def4f0;
+    color: #008361;
+    align-items: center;
+
 }
 
 .main-superior-derecha_img{
