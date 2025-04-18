@@ -276,7 +276,8 @@ div.botones-head{
     align-items: center;
 }
 .plan_box_body{
-    margin-top: 40px;
+    
+    margin-top: 0;
     border: 1px;
     border-style: solid;
     border-color: #d5dfff;
@@ -288,13 +289,6 @@ div.botones-head{
     padding: 47px 31px;
     background-color: #fafbff;
     overflow: hidden;
-}
-.planes{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 30px 100px;
-    gap: 10px;
 }
 .plan_type{
  font-size: 18px;
@@ -313,12 +307,13 @@ div.botones-head{
     text-decoration:line-through;
 }
 .ahorro_porcentaje{
+
     display: flex;
     background-color: #d5dfff;
-    width: 110px;
-    height: 25px;
-    padding: 5px;
+    width: 140px;
+    height: 30px;
     justify-content: center;
+    align-items: center;
     border-radius: 15px;
 }
 .plan_precio_box{
@@ -353,6 +348,20 @@ div.botones-head{
     font-family: "DM Sans", sans-serif;
     font-size: 16px;
     background-color:#00000000;
+}
+.boton_elegir_plan_especial{
+    border: 2px;
+    border-color: #673de6;
+    border-style: solid;
+    width: 245px;
+    height: 47px;
+    color: 673de6;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight:700;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    background-color:#673de6;
 }
 .elegir{
     display: flex;
@@ -403,14 +412,147 @@ div.botones-head{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 9999;
     transition: transform 0.3s ease;
-  }
-  
-  .chat-button:hover {
-    transform: scale(1.1);
-  }
+}
 
-  .chat-button{
+.chat-button:hover {
+    transform: scale(1.1);
+}
+
+.chat-button{
     display: flex;
     flex-direction: row;
     gap: 8px;
-  }
+}
+
+.plan_title{
+
+    width: 300px;
+    height: 40px;
+    color: white;
+    align-content: center;
+    text-align: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border: 1px;
+    border-style: solid;
+}
+
+.plan_title_ok{
+
+    background-color: #8c85ff;
+    border-color: #8c85ff;
+}
+.plan_body_with_tittle{
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border: 2px;
+        border-style: solid;
+        border-color: #8c85ff;
+
+}
+
+.planes{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.planes_titles{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.planes_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 100px;
+}
+.migracion{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f1346;
+    width: 100%;
+    height: 600px;
+    padding: 5px 100px;
+    margin-top: 50px;
+}
+.migracion_top{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+    gap: 10px;
+    margin: 20px;
+
+}
+.migracion_center{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    text-align:left;
+    margin: 20px;
+    width: 100%;
+
+}
+.migracion_item{
+
+    display: flex;
+    flex-direction: column;
+    background-color: #2f1c6a;
+    gap: 10px;
+    height: 270px;
+    width: 360px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.migracion_items_img{
+    width: 50px;
+    height: 50px;
+}
+.testimonios{
+
+    margin: 50px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.testimonio_video{
+
+    width: 400px;
+    border-radius: 20px;
+}
+
+.testimonio_comentario{
+
+    width: 90%;
+    font-family: "DM Sans", sans-serif;
+    font-size: 36px;
+    color: #2f1c6a;
+    line-height: 36px;
+    margin-bottom: 20px;
+    
+}
+
+.testimonio_nombre{
+    margin: 20px 0;
+    padding-top: 20px;
+    border-top: #d6d6d6;
+    border-top-style: solid;
+    border-top-width: 100%;
+}
