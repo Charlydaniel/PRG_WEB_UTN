@@ -459,6 +459,7 @@ div.botones-head{
     flex-direction: row;
     justify-content: space-between;
     gap: 10px;
+    margin-bottom: 20px;
 }
 
 .planes_titles{
@@ -556,3 +557,99 @@ div.botones-head{
     border-top-style: solid;
     border-top-width: 100%;
 }
+
+.plan_footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.tarjetas_img{
+    width: 150px;
+    margin: 0;
+}
+
+.metricas{
+    display: flex;
+    flex-direction: row;
+    justify-content: end end;
+    margin: 30px 0;
+    gap: 50px;
+    background-color: #fafbff;
+    color: #2f1c6a;
+}
+.metricas_detalles{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 160px 100px;
+    gap: 20px;
+    width: 600px;
+}
+.pastilla_grande{
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    display: flex;
+    background-color: #d5dfff;
+    width: 280px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    font-weight: 600;
+}
+.cuadro-azul_extra{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f1346;
+    width: 100%;
+    padding: 50px 100px;
+    margin-top: 20px;
+
+}
+.cuadro-azul_extra_under{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    width: 100%;
+    margin-top: 120PX;
+}
+.cuadro-azul_extra_under_derecha{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.cuadro-azul_extra_under_izquierda{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    color: white;
+    gap: 30px;
+}
+.lista-check {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .lista-check li {
+    position: relative;
+    padding-left: 1.5em;
+  }
+  
+  .lista-check li::before {
+    content: "\F633"; /* Cambia esto por el código del ícono que quieras */
+    font-family: "bootstrap-icons";
+    font-style: normal;
+    font-weight: normal;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: white; /* Color azul Bootstrap */
+  }
