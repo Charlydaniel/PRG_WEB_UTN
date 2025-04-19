@@ -676,6 +676,7 @@ div.botones-head{
     flex-direction: row;
     justify-content: space-around;
     gap: 20px;
+    margin-bottom: 40px;
   }
   .reseña{
     display: flex;
