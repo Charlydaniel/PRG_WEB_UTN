@@ -254,6 +254,13 @@ div.botones-head{
     text-decoration: none;
     color: #000000;
 }
+.link{
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color: #673de6;
+}
 .objeto_verde{
     color: #00B865;
 }
@@ -652,4 +659,56 @@ div.botones-head{
     left: 0;
     top: 0;
     color: white; /* Color azul Bootstrap */
+  }
+  .historias{
+    margin-top: 50px;
+    padding: 30px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #2f1c6a;
+  }
+  .historias_subtitle{
+    text-align: center;
+  }
+  .reseñas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  .reseña{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border: 1px;
+    border-color: #cec6c6;
+    border-style: solid;
+    border-radius: 15px;
+    width: 100%;
+  }
+  .reseña_head{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    background-color: #f4f5ff;
+    width: 100%;
+    padding: 20px 30px;
+  }
+  .reseña_head_data{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .reseña_body{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    height: 300px;
+  }
+  .reseña_estrellas{
+    color: #673de6;
   }
