@@ -713,3 +713,107 @@ div.botones-head{
   .reseña_estrellas{
     color: #673de6;
   }
+  .violet-button{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    background-color: #2f1c6a;
+    color:  #8c85ff;
+    width: 180px;
+    height: 32px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+  }
+  .exito{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 100px;
+  }
+  .exito_titulos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 70px 0 50px 0;
+    color: #2f1c6a;
+  }
+  .exito_botonera{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px;
+  }
+  .boton-rownd{
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    height: 45px;
+    width:150px;
+    border: 1px;
+    border-radius: 35px;
+    color: #2f1c6a;
+    background-color: #f4f5ff;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .rownd-sel{
+    background-color: #d5dfff;
+  }
+  .exito_images{
+    display: flex;
+    flex-direction: column;
+  }
+  .exito_images_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 15px;
+    background-color: black;
+  }
+  .exito_images_top_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 150px 50px;
+    color: white;
+    gap: 50px;
+    width: 100%;
+    background: linear-gradient(307deg, #623de600 66.68%, #673de6f0 129.81%);
+  }
+  .exito_images_top_left_text{
+    display: flex;
+    flex-direction:column;
+    gap: 30px;
+  }
+  .exito_images_sub{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 100%;
+    gap: 30px;
+    height: 380px;
+  }
+.exito_images_sub_left{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 100%;
+    background-color: #1f1346;
+    color: white;
+    border-radius: 15px;
+}
+.exito_images_sub_left_left{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px;
+}
+.exito_images_sub_right{
+    width: 50%;
+}
